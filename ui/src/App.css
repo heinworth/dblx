@@ -1,0 +1,40 @@
+.app {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.add-button {
+  margin: 2%;
+}
+
+.input {
+  width: 20vw
+}
+
+.form-label {
+  display: flex;
+  justify-content: center;
+}
+
+.small {
+  font-size: 2vh;
+}
+
+.columns {
+  display: flex; 
+  flex-direction: row;
+}
+
+.col {
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
